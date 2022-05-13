@@ -4,10 +4,10 @@
   - name: create S3 bucket
     s3_bucket:
       name: ansible-jenkins1999
-      aws_access_key: AKIAWIMX3MIVEQPOPM4H
-      aws_secret_key: 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
+      aws_access_key: "AKIAWIMX3MIVEQPOPM4H"
+      aws_secret_key: "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"
       state: present
-      region: us-east-1
+      region: "us-east-1"
       versioning: no
       tags:
          name: myansiblebucket
